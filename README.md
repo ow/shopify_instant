@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+If you have GitHub Codespaces access, this is for you. To run:
 
-Things you may want to cover:
+- Click 'Code' on GitHub
+- Wait for the containers to build (only happens once)
+- Create `.env` file with your Shopify Partner API keys
+- Run `rails s` and hit port 3000 on your Codespace to start
+- It works!
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
