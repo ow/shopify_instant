@@ -48,7 +48,8 @@ RUN apt-get update \
     && gem install \
         rake \
         ruby-debug-ide \
-        debase \ bundler \
+        debase \
+        bundler \
     #
     # Install sinatra MVC components
     && gem install \
