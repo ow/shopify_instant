@@ -17,7 +17,7 @@
  	"forwardPorts": [80,3000],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "gem install bundler && cd /workspace/shopify_instant && bundle install && rails db:migrate",
+	"postCreateCommand": "bundle install && rails db:migrate",
 
 	// Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
 	// "remoteUser": "vscode"
